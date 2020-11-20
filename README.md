@@ -22,17 +22,17 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
-´´´
+```ruby
 def set_copyright
   @copyright = ViewTool::Renderer.copyright('TheresaMannschatz.design', 'All rights reserved')
 end
-´´´
+```
 
 and call the method in your views
 
-´´´
+```ruby
 <%= @copyright %>
-´´´
+```
 
 ## Development
 
